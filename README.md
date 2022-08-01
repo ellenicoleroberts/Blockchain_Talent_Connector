@@ -1,6 +1,6 @@
 <img src= "Images/banner.png" width="930" height="200">
 
-# FINTECH FINDER
+# SMART CONTRACTS FOR JOINT SAVINGS ACCOUNTS
 
 This Python script creates a Streamlit application to assist in hiring and paying FinTech professionals via Ethereum. The application permits the selection of a professional and specification of how many hours you wish to hire them for. After details are filled in, the applicaiton transacts the user's selection and pays the hired candidate accordingly.
 
@@ -52,13 +52,13 @@ There are two Python scripts contained within this repo: **fintech_finder.py** a
 
 The application first generates a new Ethereum account instance using the user's mnemonic seed phrase (created during the Installation section of the README.md detailed above). Next, the account balance associated with the user's Ethereum account address is fetched and displayed.
 
-After the user selects their candidate to hire and how many hours they wish to hire them for, the total value of the Ethereum transaction, including the gas fee, is calculated 
+After the user selects their candidate to hire and how many hours they wish to hire them for, the total value of the Ethereum transaction, including the gas fee, is calculated.
 
 The user then digitally signs the transaction to pay the candidate, and sends this transaction to the Ganache blockchain.
 
 A transaction hash code associated with the validated blockchain transaction is generated below in the Streamlit sidebar.
 
-For further confirmation, the user can navigate to the Transactions section of Ganache to review the blockchain transaction details. Here is an example of a successful transaction and the balance deducted from the user's account in Ganache:
+For further confirmation, the user can navigate to the Transactions section of Ganache to review the blockchain transaction details. Here is an example of a successful transaction of this application and the balance deducted from the user's account in Ganache:
 
 ![transaction example.](Images/transaction.png)
 ![user account example.](Images/account.png)
