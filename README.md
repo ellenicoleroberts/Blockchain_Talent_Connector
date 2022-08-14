@@ -1,6 +1,6 @@
 <img src= "Images/banner.png" width="930" height="200">
 
-# SMART CONTRACTS FOR JOINT SAVINGS ACCOUNTS
+# FINTECH TALENT CONNECTOR
 
 This Python script creates a Streamlit application to assist in hiring and paying FinTech professionals via Ethereum. The application permits the selection of a professional and specification of how many hours you wish to hire them for. After details are filled in, the applicaiton transacts the user's selection and pays the hired candidate accordingly.
 
